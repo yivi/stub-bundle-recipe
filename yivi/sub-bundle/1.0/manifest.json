@@ -1,0 +1,15 @@
+{
+  "bundles": {
+    "Yivi\\StubBundle\\YiviStubBundle": ["test"]
+  },
+  "copy-from-package": {
+    "resources/stub-config.yaml": "%CONFIG_DIR%/stub-bundle.yaml"
+
+  },
+  "copy-from-recipe": {
+    "bin/something.sh": "%BIN_DIR%/something"
+  },
+  "env": {
+    "STUB_ENV": "VERY_STUB"
+  }
+}
